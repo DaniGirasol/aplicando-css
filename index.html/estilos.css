@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniela Parra</title>
+     <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header></header>
+    <main  class="fondo-div">
+        <section>
+            <div class="cuadro"> 
+            <ul>
+                <li class="lista1 primero"><a>Inicio</a></li>
+                <li class="lista1">
+                    <a>Maquillaje</a>
+                    <ul>
+                        <li class="lista2">Delineador</li>
+                        <li class="lista2">Mascara de pestañas</li>
+                        <li class="lista2">Pestañas postizas</li>
+                        <li class="lista2">Sombras</li>
+                    </ul>
+                </li>
+                <li class="lista1">
+                    <a>Cuidado Facial</a>
+                    <ul>
+                        <li class="lista3">Exfoliantes</li>
+                        <li class="lista3">Cremas</li>
+                        <li class="lista3">Sueros</li>
+                        <li class="lista3">Mascaras</li>
+                    </ul>
+                </li>
+                <li class="lista1">
+                    <a>Cuidado Corporal</a>
+                    <ul>
+                        <li class="lista4">Exfoliantes</li>
+                        <li class="lista4">Cremas</li>
+                        <li class="lista4">Depilación</li>
+                    </ul>
+                </li>
+                <li class="lista1">
+                    <a>Cuidado Capilar</a>
+                    <ul>
+                        <li class="lista5">Tratamientos</li>
+                        <li class="lista5">Shampoo y Acondicionador</li>
+                        <li class="lista5">Tintura</li>
+                    </ul>
+                <li class="lista1 ultimo"><a>Contacto</a></li>
+                </li>
+            </ul>
+        </div>
+        <p>
+
+        </p>
+                <h5 class="noticia__titulo">Flower Secret</h5>
+    <form action="contacto__noticia">
+        <fieldset>
+            <legend>Información personal</legend>
+            <p>Nombre:</p>
+            <input type="text" placeholder="Nombre" name="Nombre">
+            <p>Apellido:</p>
+            <input type="text" placeholder="Apellido" name="apellido">
+            <p>Teléfono:</p>
+            <input type="texto" placeholder="Teléfono" name="telefono">
+            <p>E-mail:</p>
+            <input type="email" placeholder="ej:correo@gmail.com">
+            <label for="Asunto">Asunto:</label>
+            <select name="Asunto">
+                <option value="Pedido">Pedido</option>
+                <option value="Cotizacion">Cotizaciones</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <p></p>
+            <input type="texto" placeholder="Mensaje" name="mensaje" class="texto__noticia texto--padding--25px">
+            <p></p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>                
+            </article>
+        </section>
+    </main>
+</body>
+</html>
